@@ -1,54 +1,23 @@
-# Expense Tracker App — Starter Project
-
-Selamat datang di *starter project* submission kelas **Front-End Web Pemula**! 🎉
-
-Proyek ini sudah dilengkapi dengan tampilan HTML dan CSS yang siap pakai. Tugas Anda adalah melengkapi logika JavaScript-nya di berkas `main.js` agar aplikasi berfungsi sepenuhnya.
-
 ---
 
-## Struktur Berkas
+## 📌 Dokumentasi Proyek Submission
 
-```
-expense-tracker-starter-project/
-├── index.html   ← Struktur halaman (jangan diubah, kecuali bagian greeting)
-├── style.css    ← Tampilan visual (bebas dimodifikasi untuk portofolio)
-├── main.js      ← Tempat Anda menulis seluruh logika JavaScript
-└── README.md    ← Panduan ini
-```
+Aplikasi pencatatan keuangan pribadi (*Expense Tracker*) berbasis web interaktif yang dibangun menggunakan HTML, CSS, dan JavaScript murni (Vanilla JS). Proyek ini dibuat untuk memenuhi kriteria submission pada kelas Front-End Web Developer di Dicoding.
 
----
+### 🚀 Fitur Utama
 
-## Cara Menjalankan Proyek
+- **Pencatatan Transaksi:** Menambahkan data transaksi berupa pemasukan dan pengeluaran secara terpisah.
+- **Kalkulasi Otomatis:** Menghitung total Saldo, Total Pemasukan, dan Total Pengeluaran secara real-time.
+- **Pencarian Transaksi:** Memfilter daftar transaksi berdasarkan kata kunci judul/keterangan secara langsung.
+- **Pindah Kategori:** Mengubah tipe transaksi dari Pemasukan ke Pengeluaran (dan sebaliknya) secara interaktif.
+- **Aksi CRUD:** Mendukung penambahan, pengubahan (edit), dan penghapusan data transaksi.
+- **Penyimpanan Lokal (Web Storage API):** Mempertahankan data transaksi menggunakan `localStorage` sehingga data tidak hilang saat halaman di-*refresh*.
 
-Proyek ini adalah HTML statis, sehingga tidak memerlukan instalasi apapun.
+### 🛠️ Teknologi yang Digunakan
 
-**Opsi 1 (Disarankan):** Gunakan ekstensi **Live Server** di VS Code.
-1. Klik kanan pada `index.html`
-2. Pilih **"Open with Live Server"**
-3. Browser akan terbuka otomatis di `http://127.0.0.1:5500`
-
-**Opsi 2:** Buka langsung berkas `index.html` di browser (klik dua kali dari File Explorer).
+- **HTML5** - Struktur aplikasi dan form input.
+- **CSS3 (BEM Convention)** - Penataan gaya layout dengan metodologi Block Element Modifier (`tracker-*`).
+- **JavaScript (ES6+)** - Manipulasi DOM, Custom Events, dan Web Storage API.
 
 ---
-
-## Mulai dari Mana?
-
-1. **Buka `index.html`**, temukan komentar `TODO` di bagian atas dan ganti teks `Siswa Front-End` dengan nama lengkap serta username Dicoding Anda.
-2. **Buka `main.js`**, baca semua komentar `TODO` dari atas ke bawah. Setiap TODO menunjukkan satu bagian logika yang perlu Anda tulis.
-3. Mulai dari TODO berlabel `[Basic]`, kemudian lanjut ke `[Skilled]` dan `[Advanced]` sesuai target nilai Anda.
-
----
-
-## Catatan Penting
-
-- **Atribut `data-testid`** pada elemen-elemen di `index.html` digunakan oleh sistem penilaian untuk memverifikasi struktur aplikasi Anda. Pastikan nilai atribut ini tidak berubah saat Anda membuat elemen kartu transaksi via JavaScript.
-- **Atribut `id`** seperti `incomeList`, `expenseList`, dan `transactionForm` juga digunakan oleh JavaScript. Pastikan nilainya tidak berubah.
-- Anda **bebas mengubah** warna, font, layout, dan styling di `style.css` untuk membuat tampilan yang unik dan personal.
-
----
-
-## Cara Mengumpulkan
-
-1. Pastikan semua fitur sudah berjalan dengan baik di browser.
-2. Kompres seluruh folder proyek menjadi satu berkas **ZIP**.
-3. Unggah berkas ZIP tersebut ke halaman submission di platform Dicoding.
+© 2026 Musyaffa. Disusun sebagai Submission Front-End Web.
